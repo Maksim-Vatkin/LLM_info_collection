@@ -3,6 +3,7 @@ The repo to store useful info about LLM
 
 - [Train Finetune LLM](#train-finetune-llm)
 - [Inference for LLM](#inference-for-llm)
+- [Wrapper for LLM](#wrapper-for-llm)
 - [Web UI Inference](#web-ui-inference)
 ---
 ## Train Finetune LLM
@@ -15,6 +16,13 @@ The repo to store useful info about LLM
 ## Inference for LLM
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - The main goal of llama.cpp is to run the LLaMA model using 4-bit integer quantization on a MacBook. Features: 1) Plain C/C++ implementation without dependencies 2) Apple silicon first-class citizen - optimized via ARM NEON and Accelerate framework 3) AVX, AVX2 and AVX512 support for x86 architectures 4) Mixed F16 / F32 precision 5) 4-bit, 5-bit and 8-bit integer quantization support 6) Runs on the CPU 7) Supports OpenBLAS/Apple BLAS/ARM Performance Lib/ATLAS/BLIS/Intel MKL/NVHPC/ACML/SCSL/SGIMATH and more in BLAS
 cuBLAS and CLBlast support. The original implementation of llama.cpp was hacked in an evening. Since then, the project has improved significantly thanks to many contributions. This project is for educational purposes and serves as the main playground for developing new features for the ggml library.
+
+## Wrapper for LLM
+* [langchain](https://github.com/hwchase17/langchain) This library aims to assist in the development of LLM based applications. Common examples of these applications include:
+    * Question Answering over specific documents
+    * Chatbots
+    * Agents
+
 
 ## Web UI Inference
 * [oobabooga](https://github.com/oobabooga/text-generation-webui) - A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA. Its goal is to become the AUTOMATIC1111/stable-diffusion-webui of text generation.
