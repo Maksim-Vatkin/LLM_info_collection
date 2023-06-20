@@ -1,11 +1,15 @@
 # LLM info collection
 The repo to store useful info about LLM
 
+- [LLMs](#llms)
 - [Train Finetune LLM](#train-finetune-llm)
 - [Inference for LLM](#inference-for-llm)
 - [Wrapper for LLM](#wrapper-for-llm)
 - [Web UI Inference](#web-ui-inference)
 ---
+## LLMs
+* [ruGPTs](https://github.com/ai-forever/ru-gpts) - This repository contains bunch of autoregressive transformer language models trained on a huge dataset of russian language. Russian GPT-3 models (ruGPT3XL, ruGPT3Large, ruGPT3Medium, ruGPT3Small) trained with 2048 sequence length with sparse and dense attention blocks. We also provide Russian GPT-2 large model (ruGPT2Large) trained with 1024 sequence length.
+      
 ## Train Finetune LLM
 * [xTuring](https://github.com/stochasticai/xTuring) - xTuring provides fast, efficient and simple fine-tuning of LLMs, such as LLaMA, GPT-J, Galactica, and more. By providing an easy-to-use interface for fine-tuning LLMs to your own data and application, xTuring makes it simple to build, customize and control LLMs. The entire process can be done inside your computer or in your private cloud, ensuring data privacy and security.
 * [GPT4All](https://github.com/nomic-ai/gpt4all) - is an ecosystem to train and deploy powerful and customized large language models that run locally on consumer grade CPUs. A GPT4All model is a 3GB - 8GB file that you can download and plug into the GPT4All open-source ecosystem software. Nomic AI supports and maintains this software ecosystem to enforce quality and security alongside spearheading the effort to allow any person or enterprise to easily train and deploy their own on-edge large language models.
