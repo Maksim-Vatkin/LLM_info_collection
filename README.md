@@ -30,6 +30,15 @@ cuBLAS and CLBlast support. The original implementation of llama.cpp was hacked 
     * Question Answering over specific documents
     * Chatbots
     * Agents
+* [ChainFury](https://github.com/NimbleBoxAI/ChainFury) - ChainFury is a powerful tool that simplifies the creation and management of chains of prompts, making it easier to build complex chat applications using LLMs.
+ChainFury- Create LLM ChatBots in 4 clicks!
+With a simple GUI inspired by LangFlow, ChainFury **enables you to chain components of LangChain together**, allowing you to embed more complex chat applications with a simple JS snippet.
+ChainFury supports a range of features, including but not limited to:
+    * Recording all prompts and responses and storing them in a database
+    * Collecting metrics like response latency
+    * Querying OpenAI's API to obtain a rating for the response, which it stores in the database
+    * Separate scoring mechanism per ChatBot to easily view performance in a dashboard
+    * Plugins to extend the functionality of ChainFury with callbacks
 
 
 ## Web UI Inference
